@@ -1,0 +1,41 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+
+}
+
+body {
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+footer{
+/* position: fixed; */
+bottom: 0;
+width: 40ch;
+margin-bottom: 10px;
+text-align: center;
+}
+
+.grand-parent {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+
+.child {
+  border: 2px solid black;
+  height: 350px;
+  width: 350px;
+  margin: 5px;
+
+}
