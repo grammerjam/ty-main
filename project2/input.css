@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .header1{
+ // visibility: hidden;
+   display: none;
+    }
+    .hero-desktop{
+        display: none;
+    }
+    .feature-desktop{
+    display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .header2{
+  //visibility: hidden;
+     display: none;
+    }
+    .hero-mobile{
+       display: none;
+    }
+    .feature-mobile{
+        display: none;
+    }
+}
+
+
+
+
+
+.menu {
+   background-image: url("/images/burgerIcon.svg");
+   background-size: contain;
+}
+
+.menuOpen {
+     background-image: url("/images/xIcon.png");
+   background-size: contain;
+}
+
+#dropMenu > div {
+    cursor: pointer;
+
+}
+
+nav > div {
+    cursor: pointer;
+}
+
+.feature-box{
+
+}
